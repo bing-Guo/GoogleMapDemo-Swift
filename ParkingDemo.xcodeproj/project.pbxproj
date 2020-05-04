@@ -3,19 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B7AB5B016C3B053519F94658 /* Pods_ParkingDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C97E2320BC8E25A023E6A0A /* Pods_ParkingDemo.framework */; };
 		FC8673132459923700FC1A9D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8673122459923700FC1A9D /* AppDelegate.swift */; };
 		FC8673152459923700FC1A9D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8673142459923700FC1A9D /* SceneDelegate.swift */; };
 		FC8673172459923700FC1A9D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8673162459923700FC1A9D /* ViewController.swift */; };
 		FC86731A2459923700FC1A9D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC8673182459923700FC1A9D /* Main.storyboard */; };
 		FC86731C2459923800FC1A9D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC86731B2459923800FC1A9D /* Assets.xcassets */; };
 		FC86731F2459923800FC1A9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC86731D2459923800FC1A9D /* LaunchScreen.storyboard */; };
+		FC8673292459CB9B00FC1A9D /* Pins.json in Resources */ = {isa = PBXBuildFile; fileRef = FC8673282459CB9B00FC1A9D /* Pins.json */; };
+		FC8673342459CDC400FC1A9D /* Pins.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8673312459CDC400FC1A9D /* Pins.swift */; };
+		FC8673352459CDC400FC1A9D /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8673322459CDC400FC1A9D /* MapViewController.swift */; };
+		FC8673362459CDC400FC1A9D /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8673332459CDC400FC1A9D /* MapViewModel.swift */; };
+		FC8673382459D0D000FC1A9D /* GoogleMaps+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8673372459D0D000FC1A9D /* GoogleMaps+Ext.swift */; };
+		FC86733B2459D19400FC1A9D /* PinsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC86733A2459D19400FC1A9D /* PinsService.swift */; };
+		FC867340245A7BFA00FC1A9D /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC86733F245A7BFA00FC1A9D /* LocationManager.swift */; };
+		FC867343245A8B8400FC1A9D /* LocationManagerInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC867342245A8B8400FC1A9D /* LocationManagerInitializer.swift */; };
+		FC867349245AF1CD00FC1A9D /* ParkingInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC867346245AF1CD00FC1A9D /* ParkingInfoViewController.swift */; };
+		FC86734A245AF1CD00FC1A9D /* ParkingInfoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC867347245AF1CD00FC1A9D /* ParkingInfoViewModel.swift */; };
+		FC86734E245AF23200FC1A9D /* ParkingInfo.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC86734D245AF23200FC1A9D /* ParkingInfo.storyboard */; };
+		FC867351245BA9DE00FC1A9D /* TitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC86734F245BA9DE00FC1A9D /* TitleTableViewCell.swift */; };
+		FC867357245BAD2700FC1A9D /* TitleTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC867356245BAD2700FC1A9D /* TitleTableViewCell.xib */; };
+		FC86735A245BAFB100FC1A9D /* ParkingInfoCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC867359245BAFB100FC1A9D /* ParkingInfoCellViewModel.swift */; };
+		FC86735D245BAFFD00FC1A9D /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC86735B245BAFFD00FC1A9D /* InfoTableViewCell.swift */; };
+		FC86735E245BAFFD00FC1A9D /* InfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC86735C245BAFFD00FC1A9D /* InfoTableViewCell.xib */; };
+		FCA4FBC6245C4AB500DB994E /* HighlightTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA4FBC4245C4AB500DB994E /* HighlightTableViewCell.swift */; };
+		FCA4FBC7245C4AB500DB994E /* HighlightTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCA4FBC5245C4AB500DB994E /* HighlightTableViewCell.xib */; };
+		FCA4FBCA245C7D5D00DB994E /* SearchBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA4FBC9245C7D5D00DB994E /* SearchBarViewController.swift */; };
+		FCA4FBEE245FD53A00DB994E /* GoogleMapInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCA4FBED245FD53A00DB994E /* GoogleMapInitializer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5C97E2320BC8E25A023E6A0A /* Pods_ParkingDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ParkingDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F4E909B0DB70BAD9B0432C6 /* Pods-ParkingDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingDemo.release.xcconfig"; path = "Target Support Files/Pods-ParkingDemo/Pods-ParkingDemo.release.xcconfig"; sourceTree = "<group>"; };
+		F846248BAC4B96B5D2ED2990 /* Pods-ParkingDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ParkingDemo.debug.xcconfig"; path = "Target Support Files/Pods-ParkingDemo/Pods-ParkingDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		FC86730F2459923700FC1A9D /* ParkingDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ParkingDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC8673122459923700FC1A9D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FC8673142459923700FC1A9D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +48,26 @@
 		FC86731B2459923800FC1A9D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC86731E2459923800FC1A9D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC8673202459923800FC1A9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC8673282459CB9B00FC1A9D /* Pins.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Pins.json; sourceTree = "<group>"; };
+		FC8673312459CDC400FC1A9D /* Pins.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pins.swift; sourceTree = "<group>"; };
+		FC8673322459CDC400FC1A9D /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		FC8673332459CDC400FC1A9D /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		FC8673372459D0D000FC1A9D /* GoogleMaps+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GoogleMaps+Ext.swift"; sourceTree = "<group>"; };
+		FC86733A2459D19400FC1A9D /* PinsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinsService.swift; sourceTree = "<group>"; };
+		FC86733F245A7BFA00FC1A9D /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		FC867342245A8B8400FC1A9D /* LocationManagerInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManagerInitializer.swift; sourceTree = "<group>"; };
+		FC867346245AF1CD00FC1A9D /* ParkingInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingInfoViewController.swift; sourceTree = "<group>"; };
+		FC867347245AF1CD00FC1A9D /* ParkingInfoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingInfoViewModel.swift; sourceTree = "<group>"; };
+		FC86734D245AF23200FC1A9D /* ParkingInfo.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = ParkingInfo.storyboard; sourceTree = "<group>"; };
+		FC86734F245BA9DE00FC1A9D /* TitleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleTableViewCell.swift; sourceTree = "<group>"; };
+		FC867356245BAD2700FC1A9D /* TitleTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TitleTableViewCell.xib; path = ParkingDemo/Feature/DetailParkingInfo/TitleTableViewCell.xib; sourceTree = SOURCE_ROOT; };
+		FC867359245BAFB100FC1A9D /* ParkingInfoCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkingInfoCellViewModel.swift; sourceTree = "<group>"; };
+		FC86735B245BAFFD00FC1A9D /* InfoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		FC86735C245BAFFD00FC1A9D /* InfoTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = InfoTableViewCell.xib; sourceTree = "<group>"; };
+		FCA4FBC4245C4AB500DB994E /* HighlightTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightTableViewCell.swift; sourceTree = "<group>"; };
+		FCA4FBC5245C4AB500DB994E /* HighlightTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HighlightTableViewCell.xib; sourceTree = "<group>"; };
+		FCA4FBC9245C7D5D00DB994E /* SearchBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarViewController.swift; sourceTree = "<group>"; };
+		FCA4FBED245FD53A00DB994E /* GoogleMapInitializer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GoogleMapInitializer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +75,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7AB5B016C3B053519F94658 /* Pods_ParkingDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		390F5BF4241533625C066953 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F846248BAC4B96B5D2ED2990 /* Pods-ParkingDemo.debug.xcconfig */,
+				5F4E909B0DB70BAD9B0432C6 /* Pods-ParkingDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8121D3A29CCD620B5485221E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C97E2320BC8E25A023E6A0A /* Pods_ParkingDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FC8673062459923700FC1A9D = {
 			isa = PBXGroup;
 			children = (
 				FC8673112459923700FC1A9D /* ParkingDemo */,
 				FC8673102459923700FC1A9D /* Products */,
+				390F5BF4241533625C066953 /* Pods */,
+				8121D3A29CCD620B5485221E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +120,139 @@
 		FC8673112459923700FC1A9D /* ParkingDemo */ = {
 			isa = PBXGroup;
 			children = (
+				FC8673392459D0DE00FC1A9D /* Extension */,
+				FC86733C2459D31A00FC1A9D /* Model */,
+				FC86732C2459CCCC00FC1A9D /* Service */,
+				FC86732A2459CC9100FC1A9D /* Bundle */,
+				FC86732F2459CD2300FC1A9D /* Feature */,
 				FC8673122459923700FC1A9D /* AppDelegate.swift */,
 				FC8673142459923700FC1A9D /* SceneDelegate.swift */,
-				FC8673162459923700FC1A9D /* ViewController.swift */,
 				FC8673182459923700FC1A9D /* Main.storyboard */,
 				FC86731B2459923800FC1A9D /* Assets.xcassets */,
 				FC86731D2459923800FC1A9D /* LaunchScreen.storyboard */,
 				FC8673202459923800FC1A9D /* Info.plist */,
+				FC8673162459923700FC1A9D /* ViewController.swift */,
 			);
 			path = ParkingDemo;
+			sourceTree = "<group>";
+		};
+		FC86732A2459CC9100FC1A9D /* Bundle */ = {
+			isa = PBXGroup;
+			children = (
+				FC8673282459CB9B00FC1A9D /* Pins.json */,
+			);
+			path = Bundle;
+			sourceTree = "<group>";
+		};
+		FC86732C2459CCCC00FC1A9D /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FC867341245A8AF300FC1A9D /* Initializer */,
+				FC86733A2459D19400FC1A9D /* PinsService.swift */,
+				FC86733F245A7BFA00FC1A9D /* LocationManager.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FC86732F2459CD2300FC1A9D /* Feature */ = {
+			isa = PBXGroup;
+			children = (
+				FCA4FBC8245C7D3B00DB994E /* SearchBar */,
+				FC867344245AF19600FC1A9D /* DetailParkingInfo */,
+				FC8673302459CD2B00FC1A9D /* Map */,
+			);
+			path = Feature;
+			sourceTree = "<group>";
+		};
+		FC8673302459CD2B00FC1A9D /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				FC8673322459CDC400FC1A9D /* MapViewController.swift */,
+				FC8673332459CDC400FC1A9D /* MapViewModel.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		FC8673392459D0DE00FC1A9D /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FC8673372459D0D000FC1A9D /* GoogleMaps+Ext.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		FC86733C2459D31A00FC1A9D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FC8673312459CDC400FC1A9D /* Pins.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FC867341245A8AF300FC1A9D /* Initializer */ = {
+			isa = PBXGroup;
+			children = (
+				FCA4FBED245FD53A00DB994E /* GoogleMapInitializer.swift */,
+				FC867342245A8B8400FC1A9D /* LocationManagerInitializer.swift */,
+			);
+			path = Initializer;
+			sourceTree = "<group>";
+		};
+		FC867344245AF19600FC1A9D /* DetailParkingInfo */ = {
+			isa = PBXGroup;
+			children = (
+				FC867360245BB20400FC1A9D /* Controller */,
+				FC86735F245BB1F200FC1A9D /* View */,
+				FC867358245BAFA200FC1A9D /* ViewModel */,
+				FC867353245BA9E600FC1A9D /* Cell */,
+			);
+			path = DetailParkingInfo;
+			sourceTree = "<group>";
+		};
+		FC867353245BA9E600FC1A9D /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				FC86734F245BA9DE00FC1A9D /* TitleTableViewCell.swift */,
+				FC867356245BAD2700FC1A9D /* TitleTableViewCell.xib */,
+				FC86735B245BAFFD00FC1A9D /* InfoTableViewCell.swift */,
+				FC86735C245BAFFD00FC1A9D /* InfoTableViewCell.xib */,
+				FCA4FBC4245C4AB500DB994E /* HighlightTableViewCell.swift */,
+				FCA4FBC5245C4AB500DB994E /* HighlightTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		FC867358245BAFA200FC1A9D /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				FC867347245AF1CD00FC1A9D /* ParkingInfoViewModel.swift */,
+				FC867359245BAFB100FC1A9D /* ParkingInfoCellViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		FC86735F245BB1F200FC1A9D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FC86734D245AF23200FC1A9D /* ParkingInfo.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FC867360245BB20400FC1A9D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FC867346245AF1CD00FC1A9D /* ParkingInfoViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		FCA4FBC8245C7D3B00DB994E /* SearchBar */ = {
+			isa = PBXGroup;
+			children = (
+				FCA4FBC9245C7D5D00DB994E /* SearchBarViewController.swift */,
+			);
+			path = SearchBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +262,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FC8673232459923800FC1A9D /* Build configuration list for PBXNativeTarget "ParkingDemo" */;
 			buildPhases = (
+				9CB615C752E5929FEEA3966C /* [CP] Check Pods Manifest.lock */,
 				FC86730B2459923700FC1A9D /* Sources */,
 				FC86730C2459923700FC1A9D /* Frameworks */,
 				FC86730D2459923700FC1A9D /* Resources */,
+				9E2BFAAB57F1CEADBB155339 /* [CP] Copy Pods Resources */,
+				007C26E8EEB1121C4F5FD331 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,21 +316,100 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC867357245BAD2700FC1A9D /* TitleTableViewCell.xib in Resources */,
 				FC86731F2459923800FC1A9D /* LaunchScreen.storyboard in Resources */,
+				FC86735E245BAFFD00FC1A9D /* InfoTableViewCell.xib in Resources */,
+				FC86734E245AF23200FC1A9D /* ParkingInfo.storyboard in Resources */,
 				FC86731C2459923800FC1A9D /* Assets.xcassets in Resources */,
 				FC86731A2459923700FC1A9D /* Main.storyboard in Resources */,
+				FCA4FBC7245C4AB500DB994E /* HighlightTableViewCell.xib in Resources */,
+				FC8673292459CB9B00FC1A9D /* Pins.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		007C26E8EEB1121C4F5FD331 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkingDemo/Pods-ParkingDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkingDemo/Pods-ParkingDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParkingDemo/Pods-ParkingDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB615C752E5929FEEA3966C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ParkingDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9E2BFAAB57F1CEADBB155339 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkingDemo/Pods-ParkingDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ParkingDemo/Pods-ParkingDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ParkingDemo/Pods-ParkingDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FC86730B2459923700FC1A9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC867349245AF1CD00FC1A9D /* ParkingInfoViewController.swift in Sources */,
+				FC86734A245AF1CD00FC1A9D /* ParkingInfoViewModel.swift in Sources */,
 				FC8673172459923700FC1A9D /* ViewController.swift in Sources */,
+				FC86735A245BAFB100FC1A9D /* ParkingInfoCellViewModel.swift in Sources */,
 				FC8673132459923700FC1A9D /* AppDelegate.swift in Sources */,
+				FC86735D245BAFFD00FC1A9D /* InfoTableViewCell.swift in Sources */,
+				FC867340245A7BFA00FC1A9D /* LocationManager.swift in Sources */,
+				FC86733B2459D19400FC1A9D /* PinsService.swift in Sources */,
+				FC8673342459CDC400FC1A9D /* Pins.swift in Sources */,
+				FCA4FBC6245C4AB500DB994E /* HighlightTableViewCell.swift in Sources */,
+				FC867343245A8B8400FC1A9D /* LocationManagerInitializer.swift in Sources */,
+				FC8673362459CDC400FC1A9D /* MapViewModel.swift in Sources */,
+				FCA4FBCA245C7D5D00DB994E /* SearchBarViewController.swift in Sources */,
+				FC867351245BA9DE00FC1A9D /* TitleTableViewCell.swift in Sources */,
+				FCA4FBEE245FD53A00DB994E /* GoogleMapInitializer.swift in Sources */,
+				FC8673382459D0D000FC1A9D /* GoogleMaps+Ext.swift in Sources */,
+				FC8673352459CDC400FC1A9D /* MapViewController.swift in Sources */,
 				FC8673152459923700FC1A9D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,11 +552,13 @@
 		};
 		FC8673242459923800FC1A9D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F846248BAC4B96B5D2ED2990 /* Pods-ParkingDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4HTHZYDXC;
 				INFOPLIST_FILE = ParkingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -300,11 +572,13 @@
 		};
 		FC8673252459923800FC1A9D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F4E909B0DB70BAD9B0432C6 /* Pods-ParkingDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = V4HTHZYDXC;
 				INFOPLIST_FILE = ParkingDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

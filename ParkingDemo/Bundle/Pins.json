@@ -1,0 +1,33 @@
+{
+    "total": 2,
+    "result": [
+        {
+            "position": {
+                "lat": 25.058674, "long": 121.560685
+            },
+            "title": "民生立體收費停車場",
+            "openTime": "24小時",
+            "image": "https://advantechfiles.blob.core.windows.net/cms/825eb685-aef1-4e3f-b573-57d074acfd00/Content/content-image-1564312208213.jpg",
+            "comment": "車位較小，愛車底盤較低，請自行斟酌預約",
+            "fee": "每小時 60 元",
+            "entryMethod": "通知聯絡人",
+            "phone": "(02)1234-5678",
+            "highlight": "請依照指定車位停車",
+            "limit": 2
+        },
+        {
+            "position": {
+                "lat": 25.058754, "long": 121.570469
+            },
+            "title": "基隆河5號水門堤外河濱公園停車場",
+            "openTime": "特定時間開放",
+            "image": "https://d46418ad944c54521591-13e75bca1e2d54325f0f744a8ac47457.ssl.cf2.rackcdn.com/2016/11/1479825127_142b702f.jpg",
+            "comment": "車位較小，愛車底盤較低，請自行斟酌預約",
+            "fee": "每小時 50 元",
+            "entryMethod": "通知聯絡人",
+            "phone": "(02)1234-5678",
+            "highlight": "歡迎加入會員停車",
+            "limit": 0
+        }
+    ]
+}
